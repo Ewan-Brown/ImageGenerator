@@ -9,7 +9,8 @@ public class Particle {
 		this.y = y;
 		this.targetX = tX;
 		this.targetY = tY;
-		this.RGB = new Color(RGB);
+		this.c = new Color(RGB);
+		this.RGB = RGB;
 	}
 	double x = 0;
 	double y = 0;
@@ -17,6 +18,7 @@ public class Particle {
 	double targetY = 0;
 	double vX = 0;
 	double vY = 0;
-	Color RGB = Color.GREEN;
-	
+	Color c = Color.WHITE;
+	int RGB = 0;
+
 }
